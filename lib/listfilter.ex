@@ -60,7 +60,7 @@ defmodule Listfilter do
   end
 
   @doc """
-    give back uneven integers from list
+    give back prime numbers from list
   """
   @spec prime_numbers_in(list()) :: list()
   def prime_numbers_in(list) do
